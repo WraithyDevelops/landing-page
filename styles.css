@@ -1,0 +1,169 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  width:1000px;
+  height:1300px; 
+  border: 1px solid black; 
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+ border: 1px solid red;   
+ background-color: #1F2937 ;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ flex:1;
+}
+
+.body-container-start {
+border: 1px solid yellow;
+flex:1;
+}
+
+.quote-container {
+  border: 1px solid blue;
+  flex: 1;
+}
+
+.body-container-end {
+  border:1px solid green;
+  flex:1;
+}
+
+.footer-container {
+  border: 1px solid purple;
+}
+
+.header-container-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  align-items: baseline;
+}
+
+.header-links {
+  display: flex;
+  gap: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+ 
+.header-container-nav a {
+   text-decoration: none;
+   color: rgb(233, 228, 228);
+ }
+
+ .header-container-content {
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex: 3;
+ }
+
+ .header-container-content .right-content {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  width: 350px;
+  height: 180px;
+  border: 1px solid green;
+  background-color: gray ;
+ }
+
+ .header-container-content .left-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center;
+  gap:15px;
+  width: 350px;
+  height: 180px;
+ }
+
+ .header-container-content .left-content .h1-bold {
+  font-weight: bold;
+  font-size: 36px;
+ }
+
+ .body-container-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .header-text {
+  display: flex;
+  margin-bottom: 40px;
+  font-weight:bolder;
+  font-size: 28px;
+
+ }
+
+ .illustration-images {
+  display: flex;
+  gap: 30px;
+ }
+
+ .illustration-images .image-filler {
+  height: 110px;
+  width: 110px;
+  border: 2px solid blue;
+  border-radius: 15px;
+ }
+
+ .image .text {
+  text-align: center;
+  font-size: 12px;
+  width: 110px;
+ }
+
+ .image {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+ }
+
+ .button {
+  background-color: #5353f5;
+  color:white;
+  border-radius: 5px;
+  width: 80px;
+ }
+ 
+ .quote-container {
+  display: flex;
+  background-color: #dcdcdc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .quote-container .quote {
+  width: 600px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: lighter;
+ }
+
+ .quote-container .signed {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  width: 600px;
+  padding-right: 50px;
+ }
+
+ .header-logo a {
+  font-size: 20px;
+ }
